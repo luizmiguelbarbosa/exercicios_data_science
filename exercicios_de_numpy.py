@@ -65,4 +65,15 @@ b = np.array([[5,6],[7,8]])
 
 c = np.dot(a,b) #multiplicação matricial 
 
+#2.6 criar um array Numpy com números inteiros de 20 a 50
+arraynumber =  np.arange(20,51)
+
+#2.7 criar uma matriz identidade 5x5
+arrayiden = np.eye(5)
+
+#2.8 criar um array 1D de 15 elementos que contenha os números de 1 a 15, mas substitua todos os múltiplos de 3 por -1
+array1D = np.arange(1,16)
+array1D[array1D %3==0] = -1
+
+
 
